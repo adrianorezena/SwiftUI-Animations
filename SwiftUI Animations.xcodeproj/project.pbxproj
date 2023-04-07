@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		806AAF9829E0345F0009FE2A /* SwiftUI_AnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806AAF9729E0345F0009FE2A /* SwiftUI_AnimationsApp.swift */; };
-		806AAF9A29E0345F0009FE2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806AAF9929E0345F0009FE2A /* ContentView.swift */; };
+		806AAF9A29E0345F0009FE2A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806AAF9929E0345F0009FE2A /* HomeView.swift */; };
 		806AAF9C29E034600009FE2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806AAF9B29E034600009FE2A /* Assets.xcassets */; };
 		806AAF9F29E034600009FE2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806AAF9E29E034600009FE2A /* Preview Assets.xcassets */; };
+		806AAFA629E037820009FE2A /* MatchedGeometryEffectGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806AAFA529E037820009FE2A /* MatchedGeometryEffectGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		806AAF9429E0345F0009FE2A /* SwiftUI Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Animations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		806AAF9729E0345F0009FE2A /* SwiftUI_AnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_AnimationsApp.swift; sourceTree = "<group>"; };
-		806AAF9929E0345F0009FE2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		806AAF9929E0345F0009FE2A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		806AAF9B29E034600009FE2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		806AAF9E29E034600009FE2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		806AAFA529E037820009FE2A /* MatchedGeometryEffectGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				806AAF9729E0345F0009FE2A /* SwiftUI_AnimationsApp.swift */,
-				806AAF9929E0345F0009FE2A /* ContentView.swift */,
+				806AAF9929E0345F0009FE2A /* HomeView.swift */,
+				806AAFA529E037820009FE2A /* MatchedGeometryEffectGrid.swift */,
 				806AAF9B29E034600009FE2A /* Assets.xcassets */,
 				806AAF9D29E034600009FE2A /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				806AAF9A29E0345F0009FE2A /* ContentView.swift in Sources */,
+				806AAF9A29E0345F0009FE2A /* HomeView.swift in Sources */,
+				806AAFA629E037820009FE2A /* MatchedGeometryEffectGrid.swift in Sources */,
 				806AAF9829E0345F0009FE2A /* SwiftUI_AnimationsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
