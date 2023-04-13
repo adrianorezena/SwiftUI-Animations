@@ -7,20 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		805790D729E4ACDE0002FDE7 /* MatchedGeometryEffectVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805790D629E4ACDE0002FDE7 /* MatchedGeometryEffectVStack.swift */; };
+		805790DB29E4C4090002FDE7 /* MatchedGeometryEffectDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805790DA29E4C4090002FDE7 /* MatchedGeometryEffectDetail.swift */; };
+		805790DD29E4C4130002FDE7 /* MatchedGeometryEffectRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805790DC29E4C4130002FDE7 /* MatchedGeometryEffectRow.swift */; };
 		806AAF9829E0345F0009FE2A /* SwiftUI_AnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806AAF9729E0345F0009FE2A /* SwiftUI_AnimationsApp.swift */; };
 		806AAF9A29E0345F0009FE2A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806AAF9929E0345F0009FE2A /* HomeView.swift */; };
 		806AAF9C29E034600009FE2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806AAF9B29E034600009FE2A /* Assets.xcassets */; };
 		806AAF9F29E034600009FE2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806AAF9E29E034600009FE2A /* Preview Assets.xcassets */; };
-		806AAFA629E037820009FE2A /* MatchedGeometryEffectGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806AAFA529E037820009FE2A /* MatchedGeometryEffectGrid.swift */; };
+		80A02D7C29E81B2D003776CF /* MacOSVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A02D7B29E81B2D003776CF /* MacOSVersion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		805790D629E4ACDE0002FDE7 /* MatchedGeometryEffectVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectVStack.swift; sourceTree = "<group>"; };
+		805790DA29E4C4090002FDE7 /* MatchedGeometryEffectDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectDetail.swift; sourceTree = "<group>"; };
+		805790DC29E4C4130002FDE7 /* MatchedGeometryEffectRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectRow.swift; sourceTree = "<group>"; };
 		806AAF9429E0345F0009FE2A /* SwiftUI Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Animations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		806AAF9729E0345F0009FE2A /* SwiftUI_AnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_AnimationsApp.swift; sourceTree = "<group>"; };
 		806AAF9929E0345F0009FE2A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		806AAF9B29E034600009FE2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		806AAF9E29E034600009FE2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		806AAFA529E037820009FE2A /* MatchedGeometryEffectGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectGrid.swift; sourceTree = "<group>"; };
+		80A02D7B29E81B2D003776CF /* MacOSVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOSVersion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +40,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		805790D829E4C3CD0002FDE7 /* MatchedGeometryEffect */ = {
+			isa = PBXGroup;
+			children = (
+				805790D929E4C3E20002FDE7 /* MatchedGeometryEffectVStack */,
+			);
+			path = MatchedGeometryEffect;
+			sourceTree = "<group>";
+		};
+		805790D929E4C3E20002FDE7 /* MatchedGeometryEffectVStack */ = {
+			isa = PBXGroup;
+			children = (
+				805790D629E4ACDE0002FDE7 /* MatchedGeometryEffectVStack.swift */,
+				805790DA29E4C4090002FDE7 /* MatchedGeometryEffectDetail.swift */,
+				805790DC29E4C4130002FDE7 /* MatchedGeometryEffectRow.swift */,
+			);
+			path = MatchedGeometryEffectVStack;
+			sourceTree = "<group>";
+		};
 		806AAF8B29E0345F0009FE2A = {
 			isa = PBXGroup;
 			children = (
@@ -53,9 +77,10 @@
 		806AAF9629E0345F0009FE2A /* SwiftUI Animations */ = {
 			isa = PBXGroup;
 			children = (
+				80A02D7A29E81B11003776CF /* Model */,
 				806AAF9729E0345F0009FE2A /* SwiftUI_AnimationsApp.swift */,
 				806AAF9929E0345F0009FE2A /* HomeView.swift */,
-				806AAFA529E037820009FE2A /* MatchedGeometryEffectGrid.swift */,
+				805790D829E4C3CD0002FDE7 /* MatchedGeometryEffect */,
 				806AAF9B29E034600009FE2A /* Assets.xcassets */,
 				806AAF9D29E034600009FE2A /* Preview Content */,
 			);
@@ -68,6 +93,14 @@
 				806AAF9E29E034600009FE2A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		80A02D7A29E81B11003776CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				80A02D7B29E81B2D003776CF /* MacOSVersion.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +174,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				806AAF9A29E0345F0009FE2A /* HomeView.swift in Sources */,
-				806AAFA629E037820009FE2A /* MatchedGeometryEffectGrid.swift in Sources */,
+				805790D729E4ACDE0002FDE7 /* MatchedGeometryEffectVStack.swift in Sources */,
+				805790DB29E4C4090002FDE7 /* MatchedGeometryEffectDetail.swift in Sources */,
 				806AAF9829E0345F0009FE2A /* SwiftUI_AnimationsApp.swift in Sources */,
+				80A02D7C29E81B2D003776CF /* MacOSVersion.swift in Sources */,
+				805790DD29E4C4130002FDE7 /* MatchedGeometryEffectRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +315,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +345,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

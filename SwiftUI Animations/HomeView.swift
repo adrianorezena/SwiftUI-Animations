@@ -8,7 +8,7 @@
 import SwiftUI
 
 enum Animation: String, CaseIterable {
-    case matchedGeometryEffectGrid = "MatchedGeometryEffect with Grids"
+    case matchedGeometryEffectVStack = "MatchedGeometryEffect with VStack"
 }
 
 struct HomeView: View {
@@ -19,8 +19,8 @@ struct HomeView: View {
                 NavigationLink(
                     destination: {
                         switch item {
-                        case .matchedGeometryEffectGrid:
-                            MatchedGeometryEffectGrid()
+                        case .matchedGeometryEffectVStack:
+                            MatchedGeometryEffectVStack()
                         }
                     },
                     label: {
